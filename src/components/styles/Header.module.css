@@ -1,0 +1,32 @@
+header {
+  display: flex;
+
+  height: 200px;
+  background-color: var(--gray-700);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  color: black;
+
+  gap: 12px;
+
+  align-items: end;
+}
+
+.logo img {
+  height: 36px;
+  width: 22px;
+}
+
+.logoText {
+  color: var(--blue);
+  font-size: 40px;
+}
+
+.logoText span {
+  color: var(--purple-dark);
+}
