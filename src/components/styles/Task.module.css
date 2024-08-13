@@ -1,0 +1,31 @@
+.task {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  width: 46rem;
+  height: 4.5rem;
+  border-radius: 8px;
+
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+
+  gap: 0.875rem;
+  padding: 1rem;
+}
+
+span {
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.imgTask {
+  height: 2rem;
+  width: 2rem;
+}
+
+input[type='checkbox']:checked + span {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
